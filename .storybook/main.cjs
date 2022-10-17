@@ -17,6 +17,9 @@ module.exports = {
     "storyStoreV7": true,
     "interactionsDebugger": true
   },
+  "staticDirs": [
+    "../public"
+  ],
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
       config.base = '/Ignite-Lab-React-OUT-2022-Design-System/'
